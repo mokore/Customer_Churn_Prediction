@@ -7,7 +7,7 @@ This is a machine learning project for a company in the telecommunications indus
 
 ## Problem Statement
 
-## Skills and Concepts Demonstrated
+***## Skills and Concepts Demonstrated***
 
 ## Project Objective
 
@@ -17,4 +17,8 @@ This is a machine learning project for a company in the telecommunications indus
 
 ## Machine Learning Model
 
-### Evaluation Metrics
+## Evaluation Metrics
+
+## Key Insights
+
+## Conclusion
