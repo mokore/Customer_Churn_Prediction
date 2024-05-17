@@ -30,12 +30,12 @@ Given that the dataset has a label, the customer churn prediction project was tr
 - **Linear Support Vector Classification**
 
 ## Evaluation Metrics
-to assess the performance of the machine learning models, the following evaluation metrics were used:
+To assess the performance of the machine learning models, the following evaluation metrics were used:
 
-- **Accuracy:**
-- **Precision:**
-- **Recall:**
-- **F1 Score:**
+- **Accuracy:** The overall proportion correctly classified customers (churned and not churned) when compared with the total customers in the test sample.
+- **Precision:** The proportion of correctly identified churn customers when compared with the total count of customers classified as churned.
+- **Recall:** The proportion of correctly identified churn customers among all the actual churned customers in the test sample.
+- **F1 Score:** The harmoni mean of precision and recall, providing a balanced metric for model evaluation.
 - **AUC-ROC:**
 
 ## Key Insights
