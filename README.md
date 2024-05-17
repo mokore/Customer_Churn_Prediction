@@ -19,7 +19,7 @@ The preprocessing phase involved an indept review of the data to observe its cha
 ## Machine Learning Model
 Given that the dataset has a label, the customer churn prediction project was treated as a classification problem. Hence, several classisfication algorithms were utilised to build models out of which the best performing model was to be selected as most suitable for the prediction task. Some of the classification algorithms used in the model building phase include:
 
-- **Extreme Gradient Boost**
+- **Extreme Gradient Boost**              -  **SGD**
 - **Random Forest**
 - **K-Nearest Neighbors**
 - **Support Vector Machine**
