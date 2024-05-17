@@ -17,12 +17,17 @@ ConnectTel customer data required to carry out analytics and predictions was pro
 The preprocessing phase involved an indept review of the data to observe its characteristics and confirm if it is in the appropriate form for machine learning application. Missing values were identified and updated, incorrect attribute type specification was also discovered and fixed. Univariate, bivariate and multivariate visualizations were applied which helped to reveal many important insights related to the dataset and uncover the correlations within amongst the attributes.
 
 ## Machine Learning Model
-Given that the dataset has a label, the customer churn prediction project was treated as a classification problem. Hence, several classisfication algorithms were utilised to build models out of which the best performing model was to be selected as most suitable for the prediction task. Some of the classification algorithms used in the model building phase include:
+Given that the dataset has a label, the customer churn prediction project was treated as a classification problem. Hence, several classisfication algorithms were utilised to build models out of which the best performing model was to be selected as most suitable for the prediction task. The following classification algorithms were used in the model building phase:
 
-- **Extreme Gradient Boost**              -  **SGD**
+- **Extreme Gradient Boost**
 - **Random Forest**
 - **K-Nearest Neighbors**
-- **Support Vector Machine**
+- **Support Vector Classification**
+- **Stochastic Gradient Descent**
+- **Logistic Regression**
+- **Decision Tree**
+- **Naives Bayes**
+- **Linear Support Vector Classification**
 
 ## Evaluation Metrics
 to assess the performance of the machine learning models, the following evaluation metrics were used:
@@ -34,5 +39,13 @@ to assess the performance of the machine learning models, the following evaluati
 - **AUC-ROC:**
 
 ## Key Insights
+The Logistic Regression Classification model has the highest accuracy of 81.26%. This means that during the test cycle, it produced the highest number of correct predictions (TPs and TNs). From its confusion matrix, the TP is 330 and the TN is 1387 making a combined total of 1717 correct predictions out of 2113. Linear Support Vector classifier ranks second in accuracy with a score of 80.88% while SVC ranks third with a score of 80.41%.
+
+In terms of precision score, SVC ranks first with a score of 69.05% closely followed by Linear SVC's 68.48% with Logistics Regression coming third at 68.46%. Precision is the ratio of the TP to the total positive predictions (TP + FP).
+
+For the recall metric, Naives Bayes scored the most points with a score of 89.72% while SGD Classifier came in at a distant second with 66.72% and Logistic Regression ranked third with 57.49%. Recall is the ratio of the TP to the total actual positives in the test data (TP + FN).
 
 ## Conclusion
+For the case under review, what is most important for the business will be the ability to correctly predict customers that will churn so that they can apply necessary intervention mechanisms to ensure they continue to retain the customer's patronage. This means the business is expected to be more concerned with the true positives (TP) metric more than any other. The higher the TPs, the higher the number of correctly predicted "churned customers".
+
+As we can see from the confusion matrices, the Naives Bayes model performed the best in terms of true positive (TP) predictions where 515 correct churn predictions out of 574 churn events in the test data (`89.72%`). Based on this, the Naives Bayes model will be the most suitable for the business to apply despite its lower accuracy ratings.
