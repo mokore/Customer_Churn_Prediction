@@ -8,6 +8,11 @@ Data Analysis and Customer Churn Prediction carried out for a telecommunications
 - [Problem Statement](#problem-statement)
 - [Project Objective](#project-objective)
 - [Data Source](#data-source)
+- [Data Preprocessing](#data-preprocessing)
+- [Machine Learning Model](#machine-learning-model)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Key Insights](#key-insights)
+- [Conclusion](#conclusion)
 
 ## Overview
 This is a machine learning project for a company in the telecommunications industry, ConnectTel. ConnectTel is a leading telecommunications company at the forefront of innovation and connectivity solutions, with a strong presence in the global market.
@@ -21,7 +26,7 @@ The project objectives include unearthing insights from the data provided and de
 ## Data Source
 ConnectTel customer data required to carry out analytics and predictions was provided by 10Alytics. It consists of 7043 rows and 21 columns. The dataset contains minimal customer features and the telecommunications services they have subscribed to. It also contains specific information on the customers’ loyalty status which confirms if they have churned or not.
 
-# Data Preprocessing
+## Data Preprocessing
 The preprocessing phase involved an indept review of the data to observe its characteristics and confirm if it is in the appropriate form for machine learning application. Missing values were identified and updated, incorrect attribute type specification was also discovered and fixed. Univariate, bivariate and multivariate visualizations were applied which helped to reveal many important insights related to the dataset and uncover the correlations within amongst the attributes.
 
 ## Machine Learning Model
