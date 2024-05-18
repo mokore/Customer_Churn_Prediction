@@ -7,7 +7,7 @@ Data Analysis and Customer Churn Prediction carried out for a telecommunications
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Project Objective](#project-objective)
-- [Data Source](#data-sources)
+- [Data Source](#data-source)
 
 ## Overview
 This is a machine learning project for a company in the telecommunications industry, ConnectTel. ConnectTel is a leading telecommunications company at the forefront of innovation and connectivity solutions, with a strong presence in the global market.
