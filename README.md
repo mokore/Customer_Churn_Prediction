@@ -3,14 +3,8 @@ Data Analysis and Customer Churn Prediction carried out for a telecommunications
 
 ![331830559-b43aa6c7-d7f7-4a44-b705-1d95e637dcbe](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/23ae93ce-63a2-4f3c-abc0-ac3939d7e258)
 
-![image](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/0db56cc0-df91-4265-8951-7a242cbc8ee6)
-
-
-![image](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/b43aa6c7-d7f7-4a44-b705-1d95e637dcbe)
-
-
-![image](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/fdb044bf-87c5-4daf-97ce-6a30ce271888)
-
+## Table of Contents
+- [Overview](#overview)
 
 ## Overview
 This is a machine learning project for a company in the telecommunications industry, ConnectTel. ConnectTel is a leading telecommunications company at the forefront of innovation and connectivity solutions, with a strong presence in the global market.
