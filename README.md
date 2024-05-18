@@ -35,8 +35,8 @@ To assess the performance of the machine learning models, the following evaluati
 - **Accuracy:** The overall proportion correctly classified customers (churned and not churned) when compared with the total customers in the test sample.
 - **Precision:** The proportion of correctly identified churn customers when compared with the total count of customers classified as churned.
 - **Recall:** The proportion of correctly identified churn customers among all the actual churned customers in the test sample.
-- **F1 Score:** The harmoni mean of precision and recall, providing a balanced metric for model evaluation.
-- **AUC-ROC:**
+- **F1 Score:** The harmonic mean of precision and recall, providing a balanced metric for model evaluation.
+- **AUC-ROC:** Area under the ROC curve. It is used to evaluate the model's performance across different thresholds. 
 
 ## Key Insights
 The Logistic Regression Classification model has the highest accuracy of 81.26%. This means that during the test cycle, it produced the highest number of correct predictions (TPs and TNs). From its confusion matrix, the TP is 330 and the TN is 1387 making a combined total of 1717 correct predictions out of 2113. Linear Support Vector classifier ranks second in accuracy with a score of 80.88% while SVC ranks third with a score of 80.41%.
@@ -46,6 +46,6 @@ In terms of precision score, SVC ranks first with a score of 69.05% closely foll
 For the recall metric, Naives Bayes scored the most points with a score of 89.72% while SGD Classifier came in at a distant second with 66.72% and Logistic Regression ranked third with 57.49%. Recall is the ratio of the TP to the total actual positives in the test data (TP + FN).
 
 ## Conclusion
-For the case under review, what is most important for the business will be the ability to correctly predict customers that will churn so that they can apply necessary intervention mechanisms to ensure they continue to retain the customer's patronage. This means the business is expected to be more concerned with the true positives (TP) metric more than any other. The higher the TPs, the higher the number of correctly predicted "churned customers".
+For this case under review, what is most important for the business will be the ability to correctly predict customers that will churn so that they can apply necessary intervention mechanisms to ensure they continue to retain the customer's patronage. This means the business is expected to be more concerned with the true positives (TP) metric more than any other. The higher the TPs, the higher the number of correctly predicted "churned customers".
 
-As we can see from the confusion matrices, the Naives Bayes model performed the best in terms of true positive (TP) predictions where 515 correct churn predictions out of 574 churn events in the test data (`89.72%`). Based on this, the Naives Bayes model will be the most suitable for the business to apply despite its lower accuracy ratings.
+Out of the nine models developed, the Naives Bayes model performed best in terms of true positive (TP) predictions where 515 correct churn predictions were made out of 574 churned customers in the test dataset (`89.72%`). Based on this, the Naives Bayes model will be the most suitable for the business to apply despite its lower accuracy score.
