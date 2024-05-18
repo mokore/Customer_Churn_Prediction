@@ -1,6 +1,7 @@
 # ConnectTel Customer_Churn_Prediction
 Data Analysis and Customer Churn Prediction carried out for a telecommunications company ConnectTel
 
+![331830559-b43aa6c7-d7f7-4a44-b705-1d95e637dcbe](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/23ae93ce-63a2-4f3c-abc0-ac3939d7e258)
 
 ![image](https://github.com/mokore/Customer_Churn_Prediction/assets/159819689/0db56cc0-df91-4265-8951-7a242cbc8ee6)
 
